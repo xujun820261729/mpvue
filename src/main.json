@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/me/main",
+    "pages/home/main",
+    "pages/index/main",
+    "pages/button/main",
+    "pages/list/main",
+    "pages/input/main",  
+    "pages/slider/main",
+    "pages/uploader/main",
+
+    "pages/article/main",
+    "pages/badge/main",
+    "pages/flex/main",
+    "pages/footer/main",
+    "pages/gallery/main",
+    "pages/grid/main",
+    "pages/icons/main",
+    "pages/loadmore/main",
+    "pages/panel/main",
+    "pages/preview/main",
+    "pages/progress/main",
+    "pages/swiper/main",
+
+    "pages/actionsheet/main",
+    "pages/dialog/main",
+    "pages/msg/main",
+    "pages/msg-fail/main",
+    "pages/msg-success/main",
+    "pages/picker/main",
+    "pages/mulLinkagePicker/main",
+    "pages/toast/main",
+    "pages/navbar/main",
+    "pages/tabbar/main",
+
+    "pages/searchbar/main",
+
+    "pages/request/main",
+    "pages/vuex/main",
+    "pages/vuexPage/main",
+    "pages/rate/main",
+
+    "pages/test/main",
+    "pages/componentsTest/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/images/original/home_tab.png",
+      "selectedIconPath": "static/images/active/home_tab.png"
+    }, {
+      "text": "充值",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/original/chongzhi.png",
+      "selectedIconPath": "static/images/active/chongzhi.png"
+    }, {
+      "text": "分类",
+      "pagePath": "pages/list/main",
+      "iconPath": "static/images/original/classification.png",
+      "selectedIconPath": "static/images/active/classification.png"
+    }, {
+      "text": "大市场",
+      "pagePath": "pages/list/main",
+      "iconPath": "static/images/original/shoppingcart.png",
+      "selectedIconPath": "static/images/active/shoppingcart.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/images/original/me.png",
+      "selectedIconPath": "static/images/active/me.png"
+    }]
+  }
+}
